@@ -1,3 +1,3 @@
 # account-ui
 
-<img src="screenshot.png" alt="screenshot of site" width="auto" height="auto" />
+<img src="screenshot.png" alt="screenshot of site" width="600px" height="auto" />
