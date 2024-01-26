@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #c2ffff;
+}
+
+.profile-container {
+  width: 16rem;
+  height: 16rem;
+  margin: 7em auto;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  display: block;
+  padding-top: 6em;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  position: absolute;
+  right: 20%;
+  top: -30%;
+}
+
+.name {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.title {
+  margin: 1em auto;
+  letter-spacing: 1px;
+}
+
+.app-permissions-container {
+  background-color: white;
+  width: 24rem;
+  height: 18rem;
+  margin: auto;
+  border-radius: 25px;
+  padding: 1em;
+  padding-top: 2em;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.app-permissions-p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.top {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.apps-span {
+  font-weight: bold;
+}
+
+.apps-data-p {
+  background-color: #c2ffff;
+  padding: 1em;
+  border: 1px solid gray;
+}
+
+.left {
+  margin-top: -1em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.button.permissions {
+  background-color: blueviolet;
+  height: 3.25em;
+  border-radius: 8px;
+  display: block;
+  color: white;
+  width: 85%;
+  border: none;
+  font-family: inherit;
+  font-size: 1.1rem;
+}
+
+.icon-container {
+  background-color: white;
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 25px;
+  display: flex;
+  gap: 1.25em;
+  width: 24rem;
+  justify-content: center;
+}
+
+.icon-container img {
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 2em;
+  text-align: center;
+}
